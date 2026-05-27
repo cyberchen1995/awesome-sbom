@@ -32,6 +32,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Software_bill_of_materials):
 
 |Tool|Build SBOM|Analyze SBOM|Edit SBOM|View SBOM|Diff SBOM|Import SBOM|Translate SBOM|Merge SBOM|Integrate with Other Tools|
 |----|:--------:|:----------:|:-------:|:-------:|:-------:|:---------:|:------------:|:--------:|:------------------------:|
+|[AIsbom](https://github.com/Lab700xOrg/aisbom) | CycloneDX | | | | | | | | |
 |AnthonyHarrison [SBOM4Python](https://pypi.org/project/sbom4python/)|CycloneDX,SPDX |
 |AnthonyHarrison [SBOM4Rust](https://pypi.org/project/sbom4rust/)|CycloneDX,SPDX|
 |AnthonyHarrison [SBOM4Files](https://pypi.org/project/sbom4files/)|CycloneDX,SPDX|
@@ -113,6 +114,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Software_bill_of_materials):
 
 ### Security Tools
 
+- [AIsbom](https://github.com/Lab700xOrg/aisbom) - CLI that scans AI models for malware and license risks and generates CycloneDX SBOMs.
 - [bomber](https://github.com/devops-kung-fu/bomber) - bomber is an application that scans SBoMs for security vulnerabilities.
 - [NTIA Conformance Checker](https://github.com/spdx/ntia-conformance-checker) - Check SPDX SBOM for NTIA minimum elements
 - [sbom-scorecard](https://github.com/eBay/sbom-scorecard) - Generate a score for your sbom to understand if it will actually be useful.
